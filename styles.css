@@ -59,11 +59,10 @@ html {
 
 .nav-links-down {
   text-decoration: none;
-  color: white;
+  color: black;
   margin: 40px 40px 40px 20px;
   font-size: 1rem;
   text-align: center;
-
 }
 
 .nav-links-down:hover {
@@ -371,6 +370,7 @@ footer a {
   .navbar-rightActive {
     background-color: black;
     position: absolute;
+    color: white;
     display: flex;
     flex-direction: column;
     width: 100%;
