@@ -366,7 +366,8 @@ footer a {
   .navbar-right {
     display: none;
   }
-  .navbar-right-active-down{
+ 
+  .navbar-links-active-down{
     text-align: center;
     color: white;
   }
