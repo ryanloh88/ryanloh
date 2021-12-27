@@ -366,10 +366,14 @@ footer a {
   .navbar-right {
     display: none;
   }
- 
   .nav-links-active-down{
     text-align: center;
     color: white;
+    padding: 20px;
+  }
+  .nav-links-active-down:hover{
+    text-decoration: underline;
+    opacity: 0.5;
   }
 
   .navbar-rightActive {
