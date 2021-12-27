@@ -1,0 +1,5 @@
+Skills learned 
+Media Queries 
+How to import a lot of items w/o typing 100 lines
+How to create a hero image
+Change navbar base on scroll height

@@ -1,0 +1,387 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Montserrat", sans-serif;
+}
+
+/* navbar----------------------------------- */
+.navDiv {
+  position: fixed;
+}
+
+.NavbarItems {
+  height: 60px;
+  position: sticky;
+  width: 100vw;
+}
+
+.NavbarItems-down {
+  width: 100vw;
+  height: 60px;
+  position: sticky;
+  background-color: white;
+}
+
+.NavbarLogo {
+  color: white;
+  font-family: "Bangers", cursive;
+  margin-left: 20vw;
+  padding-top: 30px;
+  display: inline-block;
+}
+
+.NavbarLogo-down {
+  color: black;
+  font-family: "Bangers", cursive;
+  margin-left: 20vw;
+  padding-top: 30px;
+  display: inline-block;
+
+}
+
+.nav-links {
+  text-decoration: none;
+  color: white;
+  margin: 40px 40px 40px 20px;
+  font-size: 1rem;
+
+}
+
+.nav-links:hover {
+  text-decoration: underline;
+  opacity: 0.5;
+}
+
+.nav-links-down {
+  text-decoration: none;
+  color: black;
+  margin: 40px 40px 40px 20px;
+  font-size: 1rem;
+}
+
+.nav-links-down:hover {
+  text-decoration: underline;
+  opacity: 0.5;
+}
+
+.navbar-right {
+  float: right;
+  margin-top: 30px;
+  margin-left: 19vw;
+
+}
+
+.menu-icon {
+  display: none;
+}
+
+/* Hero----------------------------------- */
+.Hero {
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.overlay {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.65);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.overlay h1{
+  user-select: none;
+  -webkit-user-select: text; /* Safari fallback only */
+  -webkit-user-select: none;
+  padding-bottom: 10px;
+}
+.overlay p{
+  user-select: none;
+  user-select: none;
+  -webkit-user-select: text; /* Safari fallback only */
+  -webkit-user-select: none;
+
+}
+.easter{
+ margin-top: 20px;
+
+}
+/* about me ---------------------------------------------- */
+.about {
+  background-color: #f5f5f7;
+  padding-left: 20vw;
+  padding-top: 60px;
+  padding-bottom: 80px;
+}
+
+.profile {
+  width: 180px;
+  border-radius: 50%;
+}
+
+.profile-desc {
+  margin-top: 50px;
+  margin-bottom:20px;
+  max-width: 40vw;
+  line-height: 1.5;
+  font-size: 17px;
+}
+
+.resButton {
+  /* margin-left: 20px; */
+
+  display: flex;
+}
+
+/* project--------------------------------------------- */
+
+
+.introDiv h1{
+  margin-left: 20vw;
+  padding-bottom: 15px;
+  font-size: 3.2rem;
+}
+.introDiv p{
+  margin-left: 20vw;
+  padding-bottom: 35px;
+}
+.projectDiv {
+  background-color: #f5f5f7;
+  padding-top: 60px;
+  padding-bottom: 80px;
+
+}
+
+.projectTitle {
+  margin-left: 20vw;
+  font-size: 2.4rem;
+  padding-bottom: 20px;
+}
+
+img {
+  margin: 40px 70px 40px 0;
+}
+
+.techHeader {
+  padding-top: 30px;
+  padding-bottom: 20px;
+
+}
+
+.imagesDiv {
+  margin-left: calc(20vw - 18px);
+  padding-bottom: 20px;
+
+}
+
+.button {
+  margin-top: 10px;
+  margin-left: 20vw;
+  border-color: black;
+  background-color: white;
+  border-radius: 25px;
+
+}
+.iphone{
+  width: 200px;
+}
+.desktop{
+  width: 40%;
+}
+
+.button a {
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+  padding-left: 2px;
+  padding-bottom: 10px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 250px 250px;
+  /* padding: 10px; */
+}
+
+.tech-item {
+  padding: 10px 0px;
+  /* display: grid; */
+}
+
+.gicon {
+  padding-top: 7px;
+}
+
+.button :hover {
+  background-color: black;
+  color: white;
+  border-radius: 25px;
+}
+
+.projectDesc {
+  display: inline-block;
+  width: 55vw;
+  margin-left: 20vw;
+  line-height: 1.4;
+}
+
+/* skills ---------------------------- */
+#skills-section {
+  background-color: #fff;
+  padding-left: 20vw;
+  width: 100vw;
+  /* height: 400px; */
+
+  padding-bottom: 40px;
+}
+
+.skillsTitle {
+  padding-top: 60px;
+  padding-bottom: 50px;
+  font-size: 2.4rem;
+}
+
+/* contact me---------------------------- */
+#contact-section {
+  background-color: #f5f5f7;
+  padding-left: 20vw;
+  width: 100vw;
+
+  padding-bottom: 40px;
+}
+
+.contactTitle {
+  padding-top: 70px;
+  padding-bottom: 30px;
+  font-size: 2.4rem;
+}
+
+.contactDesc {
+  width: 60vw;
+}
+
+.textFieldDiv {
+  padding-top: 40px;
+  width: 60vw;
+  padding-bottom: 40px;
+}
+
+.subject {
+  display: block;
+}
+
+.textField {
+  width: 100%
+  
+}
+
+.submit:hover {
+  color: white
+}
+
+/* footer---------------------------- */
+footer {
+  background-color: #332525;
+  padding: 50px;
+}
+
+footer h1 {
+  color: white;
+  font-family: "Bangers", cursive;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.socials {
+  text-align: center;
+}
+
+footer a {
+  margin: 30px;
+  text-decoration: none;
+  color: white;
+}
+
+.icon:hover {
+  transform: scale(2);
+  font-size: 1rem;
+}
+
+
+/* media queries ---------------------------- */
+@media only screen and (max-width:1200px) {
+  .nav-links {
+    margin: 40px 40px 40px 0px;
+  }
+
+  .nav-links-down {
+    margin: 40px 40px 40px 0px;
+  }
+ 
+
+
+}
+
+@media only screen and (max-width:950px) {
+  .grid-container {
+    display: grid;
+    grid-template-columns: 200px 200px;
+    /* padding: 10px; */
+  }
+  .easter{
+    max-width: 70vw;
+    text-align: center;
+  }
+ 
+  .resButton{
+    margin-left: 0vw;
+    margin-top: 20px;
+    margin-left: 30px;
+  }
+  .menu-icon {
+    float: right;
+    display: flex;
+    padding-top: 20px;
+    padding-right: 30px;
+  }
+  .profile-desc {
+    padding-top: 0px;
+    max-width: 60vw;
+    padding-left: 30px;
+  }
+
+  .navbar-right {
+    display: none;
+  }
+
+  .navbar-rightActive {
+    background-color: black;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 500px;
+    top: 85px;
+    transition: all 0.5s ease;
+    opacity: 1;
+  }
+
+  .nav-links {
+    color: white;
+    text-align: center;
+  }
+  .desktop{
+    width: 90%;
+  }
+}
