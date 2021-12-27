@@ -366,6 +366,10 @@ footer a {
   .navbar-right {
     display: none;
   }
+  .navbar-right-active-down{
+    text-align: center;
+    color: white;
+  }
 
   .navbar-rightActive {
     background-color: black;
@@ -381,7 +385,6 @@ footer a {
   }
 
   .nav-links {
-    color: white;
     text-align: center;
   }
   .desktop{
