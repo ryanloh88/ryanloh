@@ -38,7 +38,7 @@ function NavBar() {
 
             <div className={closed ?"navbar-right" :"navbar-rightActive"}>
                 {MenuItems.map((item, index) => {
-                    return <a key={index} className={navBar?"nav-links-down":item.cName} href={item.url} onClick={()=>{
+                    return <a key={index} className={!navBar?"nav-links" : closed? "nav-links-down" :"nav-links-active-down"} href={item.url} onClick={()=>{
                         change(true)
                     }}>{item.title}</a>
                 })}
