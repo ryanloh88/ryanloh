@@ -369,7 +369,8 @@ footer a {
   .nav-links-active-down{
     text-align: center;
     color: white;
-    padding: 20px;
+    margin: 40px 40px 40px 0px;
+
   }
   .nav-links-active-down:hover{
     text-decoration: underline;
