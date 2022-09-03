@@ -2,6 +2,9 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  /* overflow-x:hidden; */
+
+
 }
 
 html {
@@ -10,13 +13,19 @@ html {
 
 /* navbar----------------------------------- */
 .navDiv {
-  position: fixed;
+  position: fixed; 
+  z-index: 1;
 }
+/* .nav{
+  z-index: 1;
+
+} */
 
 .NavbarItems {
   height: 60px;
   position: sticky;
   width: 100vw;
+  
 }
 
 .NavbarItems-down {
@@ -52,6 +61,13 @@ html {
 
 }
 
+.setWhite{
+  background-color:white!important;
+}
+.setBlack{
+  background-color:black!important;
+}
+
 .nav-links:hover {
   text-decoration: underline;
   opacity: 0.5;
@@ -83,6 +99,7 @@ html {
 
 /* Hero----------------------------------- */
 .Hero {
+  
   width: 100vw;
   height: 100vh;
   background-size: cover;
@@ -90,6 +107,7 @@ html {
 }
 
 .overlay {
+  
   height: 100%;
   width: 100%;
   top: 0;
@@ -100,6 +118,7 @@ html {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+
 }
 
 .overlay h1{
@@ -259,8 +278,9 @@ img {
   background-color: #f5f5f7;
   padding-left: 20vw;
   width: 100vw;
-
   padding-bottom: 40px;
+  position: relative;
+  z-index: 0;
 }
 
 .contactTitle {
@@ -272,6 +292,10 @@ img {
 .contactDesc {
   width: 60vw;
 }
+
+/* .submitButton{
+  z-index: 0;
+} */
 
 .textFieldDiv {
   padding-top: 40px;
@@ -335,6 +359,8 @@ footer a {
 
 }
 
+
+
 @media only screen and (max-width:950px) {
   .grid-container {
     display: grid;
@@ -356,6 +382,8 @@ footer a {
     display: flex;
     padding-top: 20px;
     padding-right: 30px;
+    color: black;
+    
   }
   .profile-desc {
     padding-top: 0px;
@@ -371,6 +399,7 @@ footer a {
     color: white;
     margin: 40px 40px 40px 0px;
     text-decoration: none;
+    
 
   }
   .nav-links-active-down:hover{
@@ -379,22 +408,36 @@ footer a {
   }
 
   .navbar-rightActive {
-    background-color: black;
-    position: absolute;
+    /* background-color:  #1c2022; */
+    background-color:  black;
+    /* position: relative; */
     color: white;
     display: flex;
     flex-direction: column;
-    width: 100%;
-    height: 500px;
+    width: 100vw;
+    height: 100vw;
     top: 85px;
     transition: all 0.5s ease;
     opacity: 1;
+    display:none;
+
+
+    /* overflow: auto; */
+    /* z-index: 1000; */
+    
+    /* overflow:visible; */
   }
 
   .nav-links {
     text-align: center;
+    
   }
   .desktop{
     width: 90%;
   }
 }
+/* * {
+  background: #000 !important;
+  color: #0f0 !important;
+  outline: solid #f00 1px !important;
+} */
