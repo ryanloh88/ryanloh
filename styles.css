@@ -2,7 +2,8 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  /* overflow-x:hidden; */
+  /* overflow-x:scroll; using only if horizontal scrolling happens  */
+  /* outline: 1px solid #f00 !important; */
 
 
 }
@@ -136,6 +137,9 @@ html {
 }
 .easter{
  margin-top: 20px;
+ font-size: 1.2rem;
+ width: 70%;
+ text-align: center;
 
 }
 /* about me ---------------------------------------------- */
@@ -237,6 +241,7 @@ img {
 
 .tech-item {
   padding: 10px 0px;
+
   /* display: grid; */
 }
 
@@ -364,7 +369,7 @@ footer a {
 @media only screen and (max-width:950px) {
   .grid-container {
     display: grid;
-    grid-template-columns: 200px 200px;
+    grid-template-columns: 120px 200px;
     /* padding: 10px; */
   }
   .easter{
@@ -380,7 +385,7 @@ footer a {
   .menu-icon {
     float: right;
     display: flex;
-    padding-top: 20px;
+    padding-top: 25px;
     padding-right: 30px;
     color: black;
     
@@ -433,7 +438,29 @@ footer a {
     
   }
   .desktop{
-    width: 90%;
+    width: 75%;
+    padding-left: 10px;
+  }
+}
+@media only screen and (max-width:550px) {
+  .grid-container {
+    display: grid;
+    grid-template-columns: 100px 100px;
+    /* padding: 10px; */
+  }
+  .imagesDiv img{
+    width: 60%;
+    padding-left: 10px;
+  }
+  .introDiv h1{
+    margin-left: 20vw;
+    padding-bottom: 15px;
+    font-size: 2.8rem;
+  }
+  .introDiv p{
+    margin-left: 20vw;
+    padding-bottom: 35px;
+    width: 80%;
   }
 }
 /* * {
