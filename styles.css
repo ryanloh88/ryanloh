@@ -8,6 +8,10 @@
 
 }
 
+.hide{
+  display: none;
+}
+
 html {
   font-family: "Montserrat", sans-serif;
 }
@@ -209,6 +213,15 @@ img {
   padding-bottom: 20px;
 
 }
+.sourceCodeButton {
+  margin-top: 10px !important;
+  margin-left: 20vw !important;
+  border-color: black !important;
+  border-radius: 15px !important;
+  color: black !important;
+  text-transform: none !important;
+
+}
 
 .button {
   margin-top: 10px;
@@ -216,7 +229,6 @@ img {
   border-color: black;
   background-color: white;
   border-radius: 25px;
-
 }
 .iphone{
   width: 200px;
@@ -302,6 +314,12 @@ img {
   z-index: 0;
 } */
 
+.submitButton{
+  /* background-color: black !important; */
+  /* color: black !important; */
+  outline-color: black !important;
+}
+
 .textFieldDiv {
   padding-top: 40px;
   width: 60vw;
@@ -317,9 +335,9 @@ img {
   
 }
 
-.submit:hover {
+/* .submit:hover {
   color: white
-}
+} */
 
 /* footer---------------------------- */
 footer {
