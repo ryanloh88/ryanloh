@@ -2,10 +2,15 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  /* overflow-x:scroll; using only if horizontal scrolling happens  */
+  /* use below if only if overflow happens */
+  /* overflow-x:scroll;  */
   /* outline: 1px solid #f00 !important; */
 
 
+}
+
+body{
+  /* overflow: hidden; */
 }
 
 .hide{
@@ -15,6 +20,63 @@
 html {
   font-family: "Montserrat", sans-serif;
 }
+/* popup----------------------------------- */
+
+
+.popup{
+  z-index: 9;
+  overflow-y: hidden;
+  position: fixed;
+  width: 100%;
+  /* height: 90vh; */
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  min-width: 360px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  /* centralising a fixed div   */
+  left: 50%;
+  transform: translate(-50%, 0);
+  top:60px;
+  /* overflow: hidden; */
+}
+
+.popup-inner{
+  overflow: auto;
+  position: relative;
+  background-color: white;
+  border-radius: 10px;
+  width: 70% !important;
+  /* height: 100%; */
+  height: 65% !important;
+  padding: 16px;
+}
+
+@media screen and (max-width:1200px) {
+  .popup-inner{
+    overflow: auto;
+    position: relative;
+    background-color: white;
+    border-radius: 10px;
+    width: 70% !important;
+
+    height: 85% !important;
+    padding: 16px;
+    margin-bottom: 33px;
+  }
+  
+}
+
+
+.close-btn{
+  position: absolute;
+  top: 8px;
+  left: 10px;
+}
+
+
 
 /* navbar----------------------------------- */
 .navDiv {
@@ -139,10 +201,26 @@ html {
   -webkit-user-select: none;
 
 }
+
+
+
+
+.blueGradient{
+  background-image: linear-gradient(136.64deg, #00d9ff 1.59%, #564cb0 98.89%) !important;
+  background-clip: text !important;
+  color: transparent !important;
+  -webkit-background-clip: text;
+}
+
+.clickAnywhere{
+  font-size: 21px;
+  font-weight: bold;
+
+}
 .easter{
- margin-top: 20px;
+ /* margin-top: 20px; */
  font-size: 1.2rem;
- width: 70%;
+ /* width: 70%; */
  text-align: center;
 
 }
@@ -153,6 +231,10 @@ html {
   padding-top: 60px;
   padding-bottom: 80px;
 }
+.about h1{
+  font-size: 2.4rem;
+}
+
 
 .profile {
   width: 180px;
@@ -172,6 +254,12 @@ html {
 
   display: flex;
 }
+/* experiece--------------------------------------------- */
+.experienceDiv {
+  background-color: white;
+  padding-top: 60px;
+  padding-bottom: 80px;
+}
 
 /* project--------------------------------------------- */
 
@@ -179,17 +267,16 @@ html {
 .introDiv h1{
   margin-left: 20vw;
   padding-bottom: 15px;
-  font-size: 3.2rem;
+  font-size: 2.4rem;
 }
 .introDiv p{
   margin-left: 20vw;
   padding-bottom: 35px;
 }
 .projectDiv {
-  background-color: #f5f5f7;
+  background-color: #f5f5f7 !important;
   padding-top: 60px;
   padding-bottom: 80px;
-
 }
 
 .projectTitle {
@@ -215,13 +302,15 @@ img {
 }
 .sourceCodeButton {
   margin-top: 10px !important;
-  margin-left: 20vw !important;
+  /* margin-left: 20vw !important; */
   border-color: black !important;
-  border-radius: 15px !important;
+  /* border-radius: 8px !important; */
   color: black !important;
   text-transform: none !important;
 
 }
+
+
 
 .button {
   margin-top: 10px;
@@ -230,11 +319,34 @@ img {
   background-color: white;
   border-radius: 25px;
 }
+
+
+.moreInfoButton{
+  margin-top: 20px !important;
+  text-transform: none !important;
+  border-radius: 6px !important;
+  
+  /* color: grey !important;  */
+  /* outline-color: red !important; */
+
+}
+.slider{
+  margin-left: 20vw;
+  width: 75vw;
+  height: 430px;
+ 
+
+}
 .iphone{
-  width: 200px;
+  /* float: left; */
+  display: inline-block !important;
+  height: 190px;
+  
 }
 .desktop{
-  width: 40%;
+  /* width: 50%; */
+  height: 190px !important;
+
 }
 
 .button a {
@@ -245,16 +357,25 @@ img {
   padding-bottom: 10px;
 }
 
+.skillBlock{
+  /* display: inline !important;  */
+  display: flex;
+  padding-bottom: 20px;
+  overflow-x: auto;
+
+}
+
+
+
+.tech-item {
+  padding-right: 13px;
+  overflow-x: scroll;
+}
+
 .grid-container {
   display: grid;
   grid-template-columns: 250px 250px;
   /* padding: 10px; */
-}
-
-.tech-item {
-  padding: 10px 0px;
-
-  /* display: grid; */
 }
 
 .gicon {
@@ -274,9 +395,17 @@ img {
   line-height: 1.4;
 }
 
-/* skills ---------------------------- */
+/* popup ---------------------------- */
+.popupImageDiv{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/* skills --------------------------- */
 #skills-section {
-  background-color: #fff;
+  background-color: white;
   padding-left: 20vw;
   width: 100vw;
   /* height: 400px; */
@@ -286,7 +415,7 @@ img {
 
 .skillsTitle {
   padding-top: 60px;
-  padding-bottom: 50px;
+  padding-bottom: 15px;
   font-size: 2.4rem;
 }
 
@@ -377,22 +506,22 @@ footer a {
   .nav-links-down {
     margin: 40px 40px 40px 0px;
   }
- 
-
-
 }
 
 
 
-@media only screen and (max-width:950px) {
+@media only screen and (max-width:1060px) {
   .grid-container {
     display: grid;
     grid-template-columns: 120px 200px;
     /* padding: 10px; */
   }
-  .easter{
+  /* .easter{
     max-width: 70vw;
     text-align: center;
+  } */
+  .experiencePointers{
+    max-width: 720px;
   }
  
   .resButton{
@@ -466,6 +595,15 @@ footer a {
     grid-template-columns: 100px 100px;
     /* padding: 10px; */
   }
+  .experiencePointers{
+    max-width: 250px;
+  }
+  .clickAnywhere{
+    font-size: 16px;
+  }
+  .easterText{
+    font-size: 13px !important;
+  }
   .imagesDiv img{
     width: 60%;
     padding-left: 10px;
@@ -486,3 +624,17 @@ footer a {
   color: #0f0 !important;
   outline: solid #f00 1px !important;
 } */
+
+
+
+/* experience */
+.jobDuration{
+  color: grey;
+  font-size: 16px;
+  margin: 6px 0px 6px 0px;
+}
+
+.experiencePointers{
+  max-width: 860px;
+}
+

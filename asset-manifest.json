@@ -1,17 +1,20 @@
 {
   "files": {
     "main.css": "/ryanloh/static/css/main.43c86f1c.css",
-    "main.js": "/ryanloh/static/js/main.f3ff1dcf.js",
+    "main.js": "/ryanloh/static/js/main.72fdd44f.js",
     "static/media/CategoryPage.png": "/ryanloh/static/media/CategoryPage.673b1afde1f31c6cc6a5.png",
     "static/media/blackJackGame.png": "/ryanloh/static/media/blackJackGame.bc194472ca4b8832db8f.png",
     "static/media/homeScreen.png": "/ryanloh/static/media/homeScreen.ae874eec62e2c2ebb4dc.png",
     "static/media/question.png": "/ryanloh/static/media/question.e8e0bd7487bd066a02a9.png",
     "static/media/portfolio.png": "/ryanloh/static/media/portfolio.3f2152aebd1854e17139.png",
+    "static/media/Otdelit1.png": "/ryanloh/static/media/Otdelit1.9bbdd279f842b907c68f.png",
     "static/media/tdHome.png": "/ryanloh/static/media/tdHome.7173e3fe1a0f8e2fccec.png",
     "static/media/tdwork.png": "/ryanloh/static/media/tdwork.43b17c6140109099ee6e.png",
     "static/media/keeper.png": "/ryanloh/static/media/keeper.2b451767a7accba6e740.png",
     "static/media/pic140.jpeg": "/ryanloh/static/media/pic140.00b0820cb532e95b73e3.jpeg",
     "static/media/blackJackHome.png": "/ryanloh/static/media/blackJackHome.3c01141b1af26a4723cb.png",
+    "static/media/Otdelit2.png": "/ryanloh/static/media/Otdelit2.b750b9cd147d1da80c51.png",
+    "static/media/Foodbank.png": "/ryanloh/static/media/Foodbank.803079322ceaac32dab4.png",
     "static/media/pic224.jpeg": "/ryanloh/static/media/pic224.282f3cc35b5192e51207.jpeg",
     "static/media/pic233.jpeg": "/ryanloh/static/media/pic233.bc319df738fcc4831f1d.jpeg",
     "static/media/pic238.jpeg": "/ryanloh/static/media/pic238.d1b10376a45b04cf6604.jpeg",
@@ -30,6 +33,7 @@
     "static/media/pic188.jpeg": "/ryanloh/static/media/pic188.6fe12798a96e108cfb12.jpeg",
     "static/media/pic214.jpeg": "/ryanloh/static/media/pic214.2765ae79bbd66926f2ee.jpeg",
     "static/media/pic174.jpeg": "/ryanloh/static/media/pic174.6f08e029377cfd8e95cb.jpeg",
+    "static/media/Otdelit3.png": "/ryanloh/static/media/Otdelit3.0df2fee1e1f405077031.png",
     "static/media/pic145.jpeg": "/ryanloh/static/media/pic145.0374dd6f5a95c9a4c43d.jpeg",
     "static/media/pic221.jpeg": "/ryanloh/static/media/pic221.aa6f7f96341d2e95aa83.jpeg",
     "static/media/pic231.jpeg": "/ryanloh/static/media/pic231.236a0f7acfaa2511f597.jpeg",
@@ -120,6 +124,7 @@
     "static/media/pic213.jpeg": "/ryanloh/static/media/pic213.f90b11a2f2cda79cc149.jpeg",
     "static/media/pic184.jpeg": "/ryanloh/static/media/pic184.a63945a00f99381ef36f.jpeg",
     "static/media/pic150.jpeg": "/ryanloh/static/media/pic150.ca88336b6cc83db1c1e9.jpeg",
+    "static/media/CII.png": "/ryanloh/static/media/CII.8d45a1606184bc8bfacc.png",
     "static/media/pic228.jpeg": "/ryanloh/static/media/pic228.b7430df0d9b04caf028d.jpeg",
     "static/media/pic160.jpeg": "/ryanloh/static/media/pic160.f2d91d895b0237bd5364.jpeg",
     "static/media/pic172.jpeg": "/ryanloh/static/media/pic172.5ba79db6683ca967e395.jpeg",
@@ -127,10 +132,10 @@
     "static/media/pic205.jpeg": "/ryanloh/static/media/pic205.12b2daf6ec448c528439.jpeg",
     "index.html": "/ryanloh/index.html",
     "main.43c86f1c.css.map": "/ryanloh/static/css/main.43c86f1c.css.map",
-    "main.f3ff1dcf.js.map": "/ryanloh/static/js/main.f3ff1dcf.js.map"
+    "main.72fdd44f.js.map": "/ryanloh/static/js/main.72fdd44f.js.map"
   },
   "entrypoints": [
     "static/css/main.43c86f1c.css",
-    "static/js/main.f3ff1dcf.js"
+    "static/js/main.72fdd44f.js"
   ]
 }
