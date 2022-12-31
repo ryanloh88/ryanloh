@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ryanloh/static/css/main.43c86f1c.css",
-    "main.js": "/ryanloh/static/js/main.72fdd44f.js",
+    "main.js": "/ryanloh/static/js/main.da07d9e6.js",
     "static/media/CategoryPage.png": "/ryanloh/static/media/CategoryPage.673b1afde1f31c6cc6a5.png",
     "static/media/blackJackGame.png": "/ryanloh/static/media/blackJackGame.bc194472ca4b8832db8f.png",
     "static/media/homeScreen.png": "/ryanloh/static/media/homeScreen.ae874eec62e2c2ebb4dc.png",
@@ -132,10 +132,10 @@
     "static/media/pic205.jpeg": "/ryanloh/static/media/pic205.12b2daf6ec448c528439.jpeg",
     "index.html": "/ryanloh/index.html",
     "main.43c86f1c.css.map": "/ryanloh/static/css/main.43c86f1c.css.map",
-    "main.72fdd44f.js.map": "/ryanloh/static/js/main.72fdd44f.js.map"
+    "main.da07d9e6.js.map": "/ryanloh/static/js/main.da07d9e6.js.map"
   },
   "entrypoints": [
     "static/css/main.43c86f1c.css",
-    "static/js/main.72fdd44f.js"
+    "static/js/main.da07d9e6.js"
   ]
 }
