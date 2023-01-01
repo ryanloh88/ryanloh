@@ -1,11 +1,11 @@
 * {
   padding: 0;
   margin: 0;
-  box-sizing: border-box;
+  /* box-sizing: border-box; */
   /* use below if only if overflow happens */
   /* overflow-x:scroll;  */
   /* outline: 1px solid #f00 !important; */
-
+  /* overflow-x: hidden; */
 
 }
 
@@ -50,7 +50,7 @@ html {
   border-radius: 10px;
   width: 70% !important;
   /* height: 100%; */
-  height: 65% !important;
+  /* height: 45% !important; */
   padding: 16px;
 }
 
@@ -167,7 +167,7 @@ html {
 /* Hero----------------------------------- */
 .Hero {
   
-  width: 100vw;
+  /* width: 100vw; */
   height: 100vh;
   background-size: cover;
   background-position: 50% 50%;
@@ -334,6 +334,9 @@ img {
   margin-left: 20vw;
   width: 75vw;
   height: 430px;
+
+
+
  
 
 }
@@ -369,7 +372,7 @@ img {
 
 .tech-item {
   padding-right: 13px;
-  overflow-x: scroll;
+  overflow-x: auto;
 }
 
 .grid-container {
@@ -407,7 +410,7 @@ img {
 #skills-section {
   background-color: white;
   padding-left: 20vw;
-  width: 100vw;
+  /* width: 100vw; */
   /* height: 400px; */
 
   padding-bottom: 40px;
@@ -423,7 +426,7 @@ img {
 #contact-section {
   background-color: #f5f5f7;
   padding-left: 20vw;
-  width: 100vw;
+  /* width: 100vw; */
   padding-bottom: 40px;
   position: relative;
   z-index: 0;
@@ -602,7 +605,7 @@ footer a {
     font-size: 16px;
   }
   .easterText{
-    font-size: 13px !important;
+    font-size: 17px !important;
   }
   .imagesDiv img{
     width: 60%;
@@ -619,6 +622,14 @@ footer a {
     width: 80%;
   }
 }
+@media only screen and (max-width:440px) {
+
+  .easterText{
+    font-size: 14px !important;
+  }
+  
+}
+
 /* * {
   background: #000 !important;
   color: #0f0 !important;
